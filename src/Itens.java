@@ -2,6 +2,9 @@ public class Itens {
     private int id;
     private String nome;
     private int durabilidade;
+    private int quantidade;
+    private String dono;
+    private String raridade;
 
     public int getId() {
         return id;
@@ -25,5 +28,29 @@ public class Itens {
 
     public void setDurabilidade(int durabilidade) {
         this.durabilidade = durabilidade;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public String getDono() {
+        return dono;
+    }
+
+    public void setDono(String dono) {
+        this.dono = dono;
+    }
+
+    public String getRaridade() {
+        return raridade;
+    }
+
+    public void setRaridade(String raridade) {
+        this.raridade = raridade;
     }
 }

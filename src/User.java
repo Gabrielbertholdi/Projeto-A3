@@ -1,16 +1,17 @@
 public class User {
     private String nome;
-    private int vida;
+    private int vida = 100;
+
 
     public int getVida() {
         return vida;
     }
 
-    public java.lang.String getNome() {
+    public String getNome() {
         return nome;
     }
 
-    public void setNome(java.lang.String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 }
